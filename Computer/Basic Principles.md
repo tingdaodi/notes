@@ -40,13 +40,13 @@
 
       从而实现：输入`ON`，输出`OFF`
 
-   ![image-20211021180140390](P:\Users\Ives\Documents\github\notes\Computer\image-20211021180140390.png)
+   ![image-20211021180140390](./images/image-20211021180140390.png)
 
    
 
    b. INPUT->`OFF`: `PN 结`电流不可以流过，无法接地，只能从`OUTPUT`流过；OUTPUT->`OFF`
       从而实现: 输入`OFF`，输出`ON`
-   ​    ![image-20211021180651367](P:\Users\Ives\Documents\github\notes\Computer\image-20211021180651367.png)
+   ​    ![image-20211021180651367](./images/image-20211021180651367.png)
 
 **2）`AND`运算符**
 
@@ -64,7 +64,7 @@
 
    INPUT A->`ON`和 INPUT B->`ON`，才会有电流经过，OUTPUT->`ON`
 
-![image-20211021181748193](P:\Users\Ives\Documents\github\notes\Computer\image-20211021181748193.png)
+![image-20211021181748193](./images/image-20211021181748193.png)
 
 **3）`OR`运算符**
 
@@ -85,7 +85,7 @@
 
    b. 2个输入都为`OFF`，则 OUTPUT->`OFF`，电流无法通过
 
-![image-20211021183107377](P:\Users\Ives\Documents\github\notes\Computer\image-20211021183107377.png)
+![image-20211021183107377](./images/image-20211021183107377.png)
 
 **4）`XOR`异或运算符** 
 
@@ -108,7 +108,7 @@
    
 3. 晶体管实现方式：1个 `OR`, 2个`AND`, 1个`NOT`构成
 
-![image-20211025094224551](P:\Users\Ives\Documents\github\notes\Computer\image-20211025094224551.png)
+![image-20211025094224551](./images/image-20211025094224551.png)
 
 #### 3、逻辑门的符号
 
@@ -124,7 +124,7 @@
 
    - 异或门（`XOR`）：喷火的火箭简笔
 
-    ![image-20211025101423606](P:\Users\Ives\Documents\github\notes\Computer\image-20211025101423606.png)
+    ![image-20211025101423606](./images/image-20211025101423606.png)
 
 ### 第四课、二进制-Representing Numbers and Letters with Binary
 
@@ -134,7 +134,7 @@
 
 `263`：2个100，6个10，3个1：2\*100 + 6\*10 + 3\*1 = 263
 
-> ![image-20211025103438635](P:\Users\Ives\Documents\github\notes\Computer\image-20211025103438635.png) 
+> ![image-20211025103438635](./images/image-20211025103438635.png) 
 
 **2）二进制的原理：**每一位表示：2<sup>n</sup>，n -> 0; <kbd>4\`s</kbd><kbd>2\`s</kbd><kbd>1\`s </kbd>
 
@@ -142,19 +142,19 @@
 
 `101`：1\*4 + 2\*0 + 1\*3 = 5
 
-> ![image-20211025104947308](P:\Users\Ives\Documents\github\notes\Computer\image-20211025104947308.png) 
+> ![image-20211025104947308](./images/image-20211025104947308.png) 
 
 **3）二进制与十进制转换**
 
 `10110111`：每一位数乘以对应的进制数，再相加得到十进制数
 
-![image-20211025105145819](P:\Users\Ives\Documents\github\notes\Computer\image-20211025105145819.png) 
+![image-20211025105145819](./images/image-20211025105145819.png) 
 
 **4）二进制加减运算**
 
 `183 + 19`转换成二进制->`10110111 + 00010011`
 
-![image-20211025105646909](P:\Users\Ives\Documents\github\notes\Computer\image-20211025105646909.png)  
+![image-20211025105646909](./images/image-20211025105646909.png)  
 
 #### 2、二进制的字节定义-Binary digit
 
@@ -162,9 +162,9 @@
 
 以`8`位为例：最小`0`，最大`255`；能表示`256`个不同的值，也就是 2<sup>8</sup>
 
-![image-20211025110134843](P:\Users\Ives\Documents\github\notes\Computer\image-20211025110134843.png) 
+![image-20211025110134843](./images/image-20211025110134843.png) 
 
-![image-20211025110343964](P:\Users\Ives\Documents\github\notes\Computer\image-20211025110343964.png) 
+![image-20211025110343964](./images/image-20211025110343964.png) 
 
 **2）字节单位换算：`byte 字节` `kilobytes 千字节` `megabytes 百万字节` `gigabytes 十亿字节` `terabytes 万亿字节`**
 
@@ -200,7 +200,7 @@
 >
 > 3 <- 指数
 
-![image-20211025134746690](P:\Users\Ives\Documents\github\notes\Computer\image-20211025134746690.png) 
+![image-20211025134746690](./images/image-20211025134746690.png) 
 
 > **二进制存储方式**
 >
@@ -210,7 +210,7 @@
 >
 > 后面23位：表示有效位
 
-![image-20211025135108449](P:\Users\Ives\Documents\github\notes\Computer\image-20211025135108449.png) 
+![image-20211025135108449](./images/image-20211025135108449.png) 
 
 **2）文字表示**
 
@@ -225,7 +225,7 @@
 >
 > 计算机的运算由==算数逻辑单元（ALU）==处理完成；ALU是计算的数学大脑
 
-![image-20211025141832387](P:\Users\Ives\Documents\github\notes\Computer\image-20211025141832387.png) 
+![image-20211025141832387](./images/image-20211025141832387.png) 
 
 **二. 结构：1 个算术单元和 1 个逻辑单元**
 
@@ -235,11 +235,11 @@
 >
 > a. 0+0=0,1+0=1,0+1=1；与异或逻辑门结果一致；
 
-![image-20211025143435937](P:\Users\Ives\Documents\github\notes\Computer\image-20211025143435937.png) 
+![image-20211025143435937](./images/image-20211025143435937.png) 
 
 >  b. 1+1=2，输出 0，进一位；需要并联一个`AND`逻辑门表示进一位；
 
-<img src="P:\Users\Ives\Documents\github\notes\Computer\image-20211025144454986.png" alt="image-20211025144454986" style="zoom:80%;" /> 
+<img src="./images/image-20211025144454986.png" alt="image-20211025144454986" style="zoom:80%;" /> 
 
 **1）以上进制处理方式，封装为半加器**
 
@@ -252,25 +252,25 @@
 >
 > CARRY-进位
 
-<img src="P:\Users\Ives\Documents\github\notes\Computer\image-20211025144726988.png" alt="image-20211025144726988" style="zoom:50%;" /> ==封装后====》 <img src="P:\Users\Ives\Documents\github\notes\Computer\image-20211025145110038.png" alt="image-20211025145110038" style="zoom:50%;" /> 
+<img src="./images/image-20211025144726988.png" alt="image-20211025144726988" style="zoom:50%;" /> ==封装后====》 <img src="./images/image-20211025145110038.png" alt="image-20211025145110038" style="zoom:50%;" /> 
 
 **2）全加速器**
 
 1. 作用：半加速器处理`1+1`，输出了进位，以此计算之后的每一列，都需要3个位在一起运算
-   ![image-20211025150930642](P:\Users\Ives\Documents\github\notes\Computer\image-20211025150930642.png)
+   ![image-20211025150930642](./images/image-20211025150930642.png)
 2. 实现方式：由两个半加器与一个`OR`组成
 
   > 1. A,B -> 半加器 -> SUM 1,CARRY 1
   > 2. C, SUM1 -> 半加器 -> SUM 2,CARRY 2
   > 3. CARRY 1,CARRY 2 ->`OR`-> CARRY 3
 
-![image-20211025151615640](P:\Users\Ives\Documents\github\notes\Computer\image-20211025151615640.png) 
+![image-20211025151615640](./images/image-20211025151615640.png) 
 
 3. 封装：将“全加器”作为一个独立的组件; `FULL ADDER`
 
    作用：把 A、B、C 三个输入加起来，输出 “总和” 和 “进位”
 
-   ![image-20211025151949030](P:\Users\Ives\Documents\github\notes\Computer\image-20211025151949030.png) 
+   ![image-20211025151949030](./images/image-20211025151949030.png) 
 
 4. **运算：制作 8 位加法器**
 
@@ -278,7 +278,7 @@
 
    b. 实现方式：第一位数通过`半加器`处理后，输出的进位与第二位数通过`全加器`运算，以此类推
 
-   ![image-20211025152215546](P:\Users\Ives\Documents\github\notes\Computer\image-20211025152215546.png) 
+   ![image-20211025152215546](./images/image-20211025152215546.png) 
 
    c. 最后一个`全加器`有 “进位” 的输出，表示第 9 位有进位，代表 2 个数字的和太大了，超过了 8 位；这叫 “溢出”（overflow）；
 
@@ -294,7 +294,7 @@
 >
 > <em>12 * 5</em> -> 12 个5相加，需要 5 次`ALU`操作来实现乘法
 
-![image-20211025172629634](P:\Users\Ives\Documents\github\notes\Computer\image-20211025172629634.png) 
+![image-20211025172629634](./images/image-20211025172629634.png) 
 
 **2. 逻辑单元**：逻辑单元执行逻辑操作
 
@@ -314,9 +314,9 @@
    >
    >c. 两个数相加溢出，OVERFLOW->TRUE
 
-![image-20211025175050632](P:\Users\Ives\Documents\github\notes\Computer\image-20211025175050632.png)
+![image-20211025175050632](./images/image-20211025175050632.png)
 
-![image-20211025180024886](P:\Users\Ives\Documents\github\notes\Computer\image-20211025180024886.png) 
+![image-20211025180024886](./images/image-20211025180024886.png) 
 
 ### 第六章、寄存器 & 内存 - Registers and RAM
 
@@ -332,14 +332,15 @@
 
 - `OR`存储`1`：A 输入 1 后，B形成回路，永久输出 1；
 
-  ![image-20211026113034125](P:\Users\Ives\Documents\github\notes\Computer\image-20211026113034125.png) 
+  ![image-20211026113034125](./images/image-20211026113034125.png)  
 
 - `AND`存储`0`: A 输入 1，一直输出 1；A 断开后，输出变成 0；
 
-  ![image-20211026113342707](P:\Users\Ives\Documents\github\notes\Computer\image-20211026113342707.png)  
+  ![image-20211026113342707](./images/image-20211026113342707.png)  
 
-​    ![image-20211026113525936](P:\Users\Ives\Documents\github\notes\Computer\image-20211026113525936.png) 
+​    ![image-20211026113525936](./images/image-20211026113525936.png) 
 
 - 使用`OR`与`AND`结合起来，做出有用的存储（memory）-- “AND-OR” 锁存器
 
-![image-20211026113917744](P:\Users\Ives\Documents\github\notes\Computer\image-20211026113917744.png) 
+  ![image-20211026132421761](./images/image-20211026113917744.png)
+
