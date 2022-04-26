@@ -1,19 +1,4 @@
 ### IDEA 常用插件整理
-** 1. Key promoter： 快捷键提示 **
-
-
-** 2. Maven Helper： Maven 视图 **
-** 3. Tanslation(Yii.Guxing)： 翻译 **
-** 4. Key promoter： 快捷键提示 **
-** 5. Key promoter： 快捷键提示 **
-** 6. Key promoter： 快捷键提示 **
-** 7. Key promoter： 快捷键提示 **
-** 8. Key promoter： 快捷键提示 **
-** 9. Key promoter： 快捷键提示 **
-** 10. Key promoter： 快捷键提示 **
-
-
-
 
 | Key promoter | 快捷键提示 | 自动提示 |
 | Maven Helper | Maven视图 | pom 试图切换 |
@@ -28,3 +13,4 @@
 | Tanslation(Yii.Guxing) | 翻译软件 |
 | Rainbow brackets | 彩色括号 |
 | Key promoter | 快捷键提示 |
+| git commit template | commit模板 |
