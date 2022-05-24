@@ -41,24 +41,24 @@ Typora 中代码的插入也可以分为行为和块间两种:
 
  13. **转定义：**`\*`前面加上`\`。\*
 
-  14. **代码块**：输入```后并输入语言名，换行，开始写代码，Typora 就会自动帮你实现代码高亮。
+ 14. **代码块**：输入```后并输入语言名，换行，开始写代码，Typora 就会自动帮你实现代码高亮。
 
-      ```java
-      String a = "Hello world";
-      ```
+     ```java
+     String a = "Hello world";
+     ```
 
-      ```javascript
-      var b = 'Hello world';
-      ```
+     ```javascript
+     var b = 'Hello world';
+     ```
 
-15. **引用文字** `> + 空格 + 引用文字`
+ 15. **引用文字** `> + 空格 + 引用文字`
 
     > 引用文字
 
-16. **数学公式引用**：`$$`
-    $$
-    \mathbf{V}_1\times\mathbf{V}_2 = \mathbf{X}_3
-    $$
+ 16. **数学公式引用**：`$$`
+     $$
+     \mathbf{V}_1\times\mathbf{V}_2 = \mathbf{X}_3
+     $$
 
 
 #### 三、表格，列表
